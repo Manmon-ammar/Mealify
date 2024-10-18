@@ -1,0 +1,116 @@
+@media (min-width: 1400px) {
+    .header .container{
+        width: 80%;
+    }
+}
+@media (max-width: 1280px) {
+    .header .container{
+        width: 90%;
+    }
+    .section-2 .container{
+        width: 100%;
+    }
+    .gallery-photos{
+        height: 60rem;
+    }
+}
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+    .header .container{
+        width: 90%;
+    }
+    .icons{
+        display: flex;
+        gap: 20px;
+    }
+    .menu{
+        display: flex;
+        align-self: center;
+        font-size: large;
+    }
+    .nav-links{
+        display: none;
+    }
+    .section-2 .container{
+        width: 100%;
+    }
+    .section-3 .container{
+        width: 95%;
+    }
+    .gallery-photos{
+        height: 55rem;
+    }
+    .footer .container{
+        max-width: 1180px;
+    }
+    .footer .container :is(.information,.get-in-touch) {
+        width: calc(calc(100% - var(--gap)) / 2);
+        order: 1;
+    }
+    .footer .container :is(.subscription) {
+        width: 100%;
+        order: 2;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .header{
+        height: auto;
+    }
+    .header .container{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center; 
+        margin-top: 6.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .header .container > * {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .section-2 .container{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .section-3 .container{
+        max-width: 540px;
+    }
+    .gallery-photos{
+        flex-wrap: nowrap;
+        height: auto;
+    }
+    .gallery-photos picture{
+        width: 100%;
+    }
+    .section-4 .container{
+        max-width: 540px;
+    }
+    .details-info{
+        width: 100%;
+    }
+    form .input-group input{
+        width: 100%;
+    }
+    .footer .container{
+        max-width: 540px;
+    }
+    .footer .container :is(.information, .get-in-touch, .subscription) {
+        width: 100%;
+        order: 0;
+    }
+}
+@media (max-width: 640px) {
+    .header-content .btn-group{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
